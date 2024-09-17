@@ -30,23 +30,23 @@ const isOpen = ref(false);
 const emit = defineEmits(["audioSelected"]);
 
 const audioFiles = ref<AudioFile[]>([
-  // { name: 'Nie płakać psia mać V1', url: '/vue-skynet/music/33.mp3', autoPlay: false },
-  { name: 'Francesco', url: '/vue-skynet/music/music1.mp3', autoPlay: false },
-  { name: 'Opera of Love', url: '/vue-skynet/music/music2.mp3', autoPlay: false },
-  // { name: 'W labiryncie kodu V1 (new)', url: '/vue-skynet/music/11wLabiryncie.mp3', autoPlay: false },
-  // { name: 'W labiryncie kodu V2 (new)', url: '/vue-skynet/music/22wLabiryncie.mp3', autoPlay: false },
-  // { name: 'Jeszcze Polska nie zgineła', url: '/vue-skynet/music/33jeszczePolska.mp3', autoPlay: false },
-  // { name: 'Nanashi Zer YouTube Nanashi Zero', url: '/vue-skynet/music/44Nanashi_ZerYouTubeNanashi_Zero.mp3', autoPlay: false },
-  // { name: 'Nie płakać psia mać V0', url: '/vue-skynet/music/33.mp3' },
+  // { name: 'Nie płakać psia mać V1', url: '/vue-starter/music/33.mp3', autoPlay: false },
+  { name: 'Francesco', url: '/vue-starter/music/music1.mp3', autoPlay: false },
+  { name: 'Opera of Love', url: '/vue-starter/music/music2.mp3', autoPlay: false },
+  // { name: 'W labiryncie kodu V1 (new)', url: '/vue-starter/music/11wLabiryncie.mp3', autoPlay: false },
+  // { name: 'W labiryncie kodu V2 (new)', url: '/vue-starter/music/22wLabiryncie.mp3', autoPlay: false },
+  // { name: 'Jeszcze Polska nie zgineła', url: '/vue-starter/music/33jeszczePolska.mp3', autoPlay: false },
+  // { name: 'Nanashi Zer YouTube Nanashi Zero', url: '/vue-starter/music/44Nanashi_ZerYouTubeNanashi_Zero.mp3', autoPlay: false },
+  // { name: 'Nie płakać psia mać V0', url: '/vue-starter/music/33.mp3' },
 ]);
 // const audioFiles = ref<AudioFile[]>([
-//   { name: 'Nie płakać psia mać V1', url: '/vue-skynet/music/33.mp3', autoPlay: false },
-//   { name: 'Nie płakać psia mać V4', url: '/vue-skynet/music/33.mp3', autoPlay: false },
-//   { name: 'Nie płakać psia mać V5', url: '/vue-skynet/music/33.mp3', autoPlay: false },
-//   { name: 'W labiryncie kodu V1 (new)', url: '/vue-skynet/music/33.mp3', autoPlay: false },
-//   { name: 'W labiryncie kodu V2 (new)', url: '/vue-skynet/music/33.mp3', autoPlay: false },
-//   { name: 'Jeszcze Polska nie zgineła', url: '/vue-skynet/music/33.mp3', autoPlay: false },
-//   { name: 'Nanashi Zer YouTube Nanashi Zero', url: '/vue-skynet/music/33.mp3', autoPlay: false },
+//   { name: 'Nie płakać psia mać V1', url: '/vue-starter/music/33.mp3', autoPlay: false },
+//   { name: 'Nie płakać psia mać V4', url: '/vue-starter/music/33.mp3', autoPlay: false },
+//   { name: 'Nie płakać psia mać V5', url: '/vue-starter/music/33.mp3', autoPlay: false },
+//   { name: 'W labiryncie kodu V1 (new)', url: '/vue-starter/music/33.mp3', autoPlay: false },
+//   { name: 'W labiryncie kodu V2 (new)', url: '/vue-starter/music/33.mp3', autoPlay: false },
+//   { name: 'Jeszcze Polska nie zgineła', url: '/vue-starter/music/33.mp3', autoPlay: false },
+//   { name: 'Nanashi Zer YouTube Nanashi Zero', url: '/vue-starter/music/33.mp3', autoPlay: false },
 // ]);
 
 

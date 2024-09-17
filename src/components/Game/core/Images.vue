@@ -7,7 +7,7 @@
       top: posY + 'px',
       width: imageWidth + 'px',
       height: imageHeight + 'px',
-      backgroundImage: `url(/vue-skynet/game/images${imagePath})`
+      backgroundImage: `url(/vue-starter/game/images${imagePath})`
     }"
   >
     <a :href="linkUrl" target="_blank" class="image-link">

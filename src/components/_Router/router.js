@@ -20,7 +20,7 @@ const router = createRouter({
   routes: [
     { path: '/', component: Home },
     { path: '/login', component: Logowanie },
-    { path: '/vue-skynet/', component: Home },
+    { path: '/vue-starter/', component: Home },
     { path: '/Unit-Converter', component: UnitConverter },
     { path: '/Geometry', component: Geometry },
     { path: '/Game', component: Game },
